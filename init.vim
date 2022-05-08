@@ -87,7 +87,7 @@ noremap tu :tabe<CR>
 noremap tn :+tabnext<CR>
 noremap tp :-tabnext<CR>
 
-
+" TODO: edit .vim to .nvim later, cause its for vim
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline' " status bar under the screen
@@ -130,10 +130,10 @@ let g:coc_global_extensions = [
             \'coc-cmake',
             \'coc-git',
             \'coc-sh',
-            \'coc-jedi',
             \'coc-syntax',
             \'coc-pairs',
             \'coc-highlight',
+            \'coc-pyright',
             \]
 let g:coc_disable_startup_warning = 1
 " jump to reference or other files without saving previous file
